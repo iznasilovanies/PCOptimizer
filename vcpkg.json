@@ -1,0 +1,13 @@
+{
+  "name": "pc-optimizer",
+  "version": "1.0.0",
+  "description": "Premium Windows optimization tool with modern dashboard UI",
+  "dependencies": [
+    {
+      "name": "imgui",
+      "features": ["docking-experimental", "dx11-binding", "win32-binding"]
+    },
+    "nlohmann-json",
+    "spdlog"
+  ]
+}
